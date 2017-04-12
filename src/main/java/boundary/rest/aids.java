@@ -21,4 +21,9 @@ public class aids {
     public String test(){
         return "it works!";
     }
+    @GET
+    @Path("2")
+    public String test2(){
+        return "it works2!";
+    }
 }
